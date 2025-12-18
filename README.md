@@ -63,4 +63,24 @@ This tool fixes those problems **automatically**.
 - Reasoning behind each correction
 
 ---
+---
 
+## 🏗️ System Architecture
+
+- **Frontend**: React / HTML (Upload & Results UI)
+- **Backend**: FastAPI (Python)
+- **AI Layer**:
+  - Resume understanding & reasoning
+  - Job-role matching
+  - Resume rewriting & enhancement
+- **Document Processing**:
+  - PDF / DOCX parsing
+  - Resume regeneration
+- **Optional**:
+  - ATS scoring
+  - RAG-based skill intelligence
+  - Cloud LLM APIs (Gemini / Vertex AI)
+
+---
+
+## 📁 Project Structure
