@@ -82,5 +82,61 @@ This tool fixes those problems **automatically**.
   - Cloud LLM APIs (Gemini / Vertex AI)
 
 ---
+---
 
-## 📁 Project Structure
+## 🧪 Supported File Types
+
+- ✅ PDF  
+- ✅ DOCX  
+- ⏳ TXT (planned)
+
+---
+
+## 🛡️ Resume Vulnerabilities Detected
+
+- Missing technical / soft skills
+- Weak experience descriptions
+- Low ATS keyword score
+- Poor formatting and structure
+- Role mismatch
+- Generic resume content
+
+---
+
+## 📈 Use Cases
+
+- Students & freshers
+- Working professionals
+- Hackathons & career platforms
+- Resume screening tools
+- ATS optimization services
+
+---
+
+## 🧩 Future Enhancements
+
+- Resume scoring dashboard
+- Multi-role resume generation
+- LinkedIn profile optimization
+- Cover letter generation
+- Industry-specific resume templates
+- Multi-language support
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/resume-analyzer.git
+
+# Install backend dependencies
+pip install -r requirements.txt
+
+# Run backend server
+uvicorn main:app --reload
+
+# Run frontend
+npm install
+npm start
+
