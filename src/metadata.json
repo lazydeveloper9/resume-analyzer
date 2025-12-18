@@ -1,0 +1,5 @@
+{
+  "name": "ResuMate AI",
+  "description": "AI-powered resume analyzer and rebuilder using Gemini 2.5.",
+  "requestFramePermissions": []
+}
